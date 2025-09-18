@@ -1,0 +1,21 @@
+id,subject,chapter,question,option_a,option_b,option_c,option_d,answer
+1,BM,Tatabahasa,Apakah sinonim bagi "besar"?,kecil,agung,sempit,ringkas,agung
+2,BM,Tatabahasa,Apakah lawan kata bagi "gelap"?,terang,suram,malam,pekat,terang
+3,BM,Pemahaman,Pilih ayat yang betul.,Saya pergi pasar.,Saya pergi ke pasar.,Saya ke pergi pasar.,Pasar saya pergi.,Saya pergi ke pasar.
+4,BM,Pemahaman,Siapakah watak utama dalam cerita rakyat "Sang Kancil dan Buaya"?,Harimau,Gajah,Sang Kancil,Singa,Sang Kancil
+5,BM,Kosa Kata,Apakah maksud "ceria"?,sedih,gembira,marah,letih,gembira
+6,Math,Nombor,Berapakah 12 + 8?,15,18,20,22,20
+7,Math,Nombor,Berapakah 45 – 17?,28,27,29,30,28
+8,Math,Pecahan,Apakah pecahan bagi separuh?,1/3,1/4,1/2,3/4,1/2
+9,Math,Pecahan,3/6 sama dengan...,1/2,1/3,1/4,2/3,1/2
+10,Math,Geometri,Berapakah bilangan sisi bagi segi empat sama?,3,4,5,6,4
+11,Sains,Hidupan,Apakah organ yang mengepam darah?,Jantung,Paru-paru,Otak,Perut,Jantung
+12,Sains,Hidupan,Apakah organ pernafasan manusia?,Jantung,Paru-paru,Perut,Hati,Paru-paru
+13,Sains,Alam Semesta,Matahari ialah sebuah...,Planet,Bintang,Satelit,Kometa,Bintang
+14,Sains,Benda,Air berubah menjadi ais melalui proses...,Penyejatan,Pembekuan,Pemeluwapan,Peleburan,Pembekuan
+15,Sains,Benda,Apa yang berlaku apabila lilin dibakar?,Perubahan kekal,Perubahan fizikal,Perubahan kimia,Tiada perubahan,Perubahan kimia
+16,English,Grammar,Choose the correct sentence.,She go to school.,She goes to school.,She going to school.,She gone to school.,She goes to school.
+17,English,Grammar,Fill in the blank: He ___ playing football.,is,are,am,be,is
+18,English,Vocabulary,What is the opposite of "hot"?,Warm,Cold,Hotter,Freeze,Cold
+19,English,Vocabulary,What is the plural of "child"?,Childs,Children,Childes,Childer,Children
+20,English,Comprehension,Ali is running fast. What is he doing?,Walking,Sleeping,Eating,Running,Running

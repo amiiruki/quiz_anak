@@ -1,0 +1,21 @@
+id,subject,chapter,question,option_a,option_b,option_c,option_d,answer
+1,BM,Tatabahasa,Pilih peribahasa yang betul.,Bagai aur dengan tebing,Bagai gunung dengan laut,Bagai kaca dengan permata,Bagai api dengan bara,Bagai aur dengan tebing
+2,BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu
+3,BM,Pemahaman,Apakah maksud frasa "melepaskan batuk di tangga"?,Sakit dada,Membuat kerja sambil lewa,Batuk di tangga,Membuang masa,Membuat kerja sambil lewa
+4,BM,Pemahaman,Pilih ayat yang gramatis.,Saya telah membaca buku itu.,Saya sudah baca buku itu.,Saya baca buku itu sudah.,Sudah saya baca buku itu.,Saya telah membaca buku itu.
+5,BM,Kosa Kata,Apa maksud perkataan "sejahtera"?,Sihat,Susah,Sakit,Miskin,Sihat
+6,Math,Nombor,Berapakah 35 × 12?,360,420,440,480,420
+7,Math,Nombor,Hasil bahagi 144 ÷ 12 ialah...,10,11,12,13,12
+8,Math,Geometri,Berapakah jumlah sudut dalam segi tiga?,90,120,180,360,180
+9,Math,Geometri,Berapakah bilangan sisi segi lapan?,6,7,8,9,8
+10,Math,Pecahan,5/10 sama dengan...,1/5,1/2,2/5,5/2,1/2
+11,Sains,Hidupan,Apakah fungsi daun pada tumbuhan?,Menyerap air,Menyerap cahaya matahari,Menyerap baja,Menyerap tanah,Menyerap cahaya matahari
+12,Sains,Hidupan,Tumbuhan membuat makanannya melalui proses...,Fotosintesis,Respirasi,Peluh,Pengoksidaan,Fotosintesis
+13,Sains,Alam Semesta,Planet manakah yang paling hampir dengan Matahari?,Bumi,Mars,Venus,Merkuri,Merkuri
+14,Sains,Alam Semesta,Bumi mengelilingi Matahari dalam tempoh...,24 jam,1 bulan,1 tahun,10 tahun,1 tahun
+15,Sains,Benda,Apakah perubahan air menjadi wap?,Pembekuan,Pemeluwapan,Penyejatan,Peleburan,Penyejatan
+16,English,Grammar,Choose the correct past tense.,She eat lunch.,She eats lunch.,She eaten lunch.,She ate lunch.,She ate lunch.
+17,English,Grammar,Fill in the blank: They ___ going to school.,is,are,am,be,are
+18,English,Vocabulary,What is the synonym of "happy"?,Sad,Angry,Joyful,Tired,Joyful
+19,English,Vocabulary,What is the opposite of "success"?,Win,Victory,Defeat,Progress,Defeat
+20,English,Comprehension,The boy kicked the ball. What did he kick?,The wall,The ball,The toy,The bag,The ball
