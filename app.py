@@ -89,7 +89,7 @@ if not df.empty:
             total = len(df_filtered)
             for i, row in df_filtered.iterrows():
                 user_answer = st.session_state.get(f"q{i}")
-                if user_answer == row['answer']:
+                if user_answer.strip().lower() == row['answer'].strip().lower():
                     score += 1
             st.success(f"Markah: {score}/{total} ({(score/total)*100:.1f}%)")
             save_progress(username, tahun, subject, chapter, score, total)
@@ -120,3 +120,4 @@ if os.path.exists("progress.json"):
                     st.write(f"Tahun {year} | {subj} - {chap} → {score}/{total} ({percentage:.1f}%)")
 else:
     st.info("Belum ada progres direkodkan.")
+
