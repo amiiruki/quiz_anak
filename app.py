@@ -8,22 +8,27 @@ from datetime import datetime
 # Load Questions Function
 # =======================
 @st.cache_data
-def load_questions(file):
-    df = pd.read_csv(file)
-    return df
+def load_questions(tahun):
+    file = f"questions_tahun{tahun}.csv"
+    if os.path.exists(file):
+        return pd.read_csv(file)
+    else:
+        st.error(f"❌ File {file} tidak dijumpai.")
+        return pd.DataFrame()
 
 # =======================
 # Save Results Function
 # =======================
-def save_results(name, score, total, subject, chapter):
+def save_results(name, score, total, subject, chapter, tahun):
     result_file = "results.csv"
     if os.path.exists(result_file):
         df = pd.read_csv(result_file)
     else:
-        df = pd.DataFrame(columns=["Name", "Subject", "Chapter", "Score", "Total", "Date"])
+        df = pd.DataFrame(columns=["Name", "Year", "Subject", "Chapter", "Score", "Total", "Date"])
 
     new_data = pd.DataFrame([{
         "Name": name,
+        "Year": tahun,
         "Subject": subject,
         "Chapter": chapter,
         "Score": score,
@@ -37,47 +42,52 @@ def save_results(name, score, total, subject, chapter):
 # =======================
 # Main App
 # =======================
-st.title("📘 Aplikasi Latihan Soalan Tahun 5")
+st.title("📘 Aplikasi Latihan Soalan Tahun 3 & 5")
 
 menu = st.sidebar.radio("Menu", ["Pelajar", "Ibu Bapa"])
 
 # ---------------- Pelajar ----------------
 if menu == "Pelajar":
     name = st.text_input("Nama Pelajar")
-    subject = st.selectbox("Pilih Subjek", ["Ibadah", "Tauhid"])
-    chapter = st.selectbox("Pilih Bab", ["Solat", "Rukun Iman"])
+    tahun = st.selectbox("Pilih Tahun", [3, 5])
 
-    if name and subject and chapter:
-        df = load_questions("questions_tahun5.csv")
+    df = load_questions(tahun)
 
-        # Filter ikut subjek + chapter
-        df_filtered = df[(df["subject"] == subject) & (df["chapter"] == chapter)]
+    if not df.empty:
+        subject = st.selectbox("Pilih Subjek", df["subject"].unique())
+        chapter_options = df[df["subject"] == subject]["chapter"].unique()
+        chapter = st.selectbox("Pilih Bab", chapter_options)
 
-        if df_filtered.empty:
-            st.warning("⚠️ Tiada soalan untuk subjek & bab ini.")
-        else:
-            # Shuffle semua soalan
-            df_filtered = df_filtered.sample(frac=1).reset_index(drop=True)
+        if name and subject and chapter:
+            # Filter ikut subjek + chapter
+            df_filtered = df[(df["subject"] == subject) & (df["chapter"] == chapter)]
 
-            st.subheader(f"Soalan untuk {subject} - {chapter}")
-            answers = {}
+            if df_filtered.empty:
+                st.warning("⚠️ Tiada soalan untuk subjek & bab ini.")
+            else:
+                # Shuffle semua soalan
+                df_filtered = df_filtered.sample(frac=1).reset_index(drop=True)
 
-            for i, row in df_filtered.iterrows():
-                st.markdown(f"**{i+1}. {row['question']}**")
-                options = [row["option1"], row["option2"], row["option3"], row["option4"]]
-                answer = st.radio("Jawapan:", options, key=f"q{i}")
-                answers[i] = {"selected": answer, "correct": row["answer"]}
+                st.subheader(f"Soalan untuk {subject} - {chapter}")
+                answers = {}
 
-            if st.button("Hantar Jawapan"):
-                score = 0
-                for i in answers:
-                    if answers[i]["selected"] == answers[i]["correct"]:
-                        score += 1
+                for i, row in df_filtered.iterrows():
+                    st.markdown(f"**{i+1}. {row['question']}**")
+                    options = [row["option_a"], row["option_b"], row["option_c"], row["option_d"]]
+                    random.shuffle(options)
+                    answer = st.radio("Jawapan:", options, key=f"q{i}")
+                    answers[i] = {"selected": answer, "correct": row["answer"]}
 
-                total = len(answers)
-                st.success(f"✅ Markah: {score}/{total}")
+                if st.button("Hantar Jawapan"):
+                    score = 0
+                    for i in answers:
+                        if answers[i]["selected"].strip().lower() == answers[i]["correct"].strip().lower():
+                            score += 1
 
-                save_results(name, score, total, subject, chapter)
+                    total = len(answers)
+                    st.success(f"✅ Markah: {score}/{total} ({(score/total)*100:.1f}%)")
+
+                    save_results(name, score, total, subject, chapter, tahun)
 
 # ---------------- Ibu Bapa ----------------
 elif menu == "Ibu Bapa":
@@ -89,8 +99,8 @@ elif menu == "Ibu Bapa":
 
         st.dataframe(df)
 
-        avg_score = df["Score"].sum() / df["Total"].sum() * 100 if not df.empty else 0
-        st.metric("Purata Prestasi Keseluruhan", f"{avg_score:.2f}%")
-
+        if not df.empty:
+            avg_score = df["Score"].sum() / df["Total"].sum() * 100
+            st.metric("Purata Prestasi Keseluruhan", f"{avg_score:.2f}%")
     else:
         st.info("❌ Belum ada rekod jawapan pelajar.")
