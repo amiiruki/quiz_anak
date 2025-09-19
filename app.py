@@ -23,23 +23,22 @@ def save_progress(username, tahun, subject, chapter, score, total):
     progress_file = "progress.json"
     if os.path.exists(progress_file):
         with open(progress_file, "r") as f:
-            data = json.load(f)
+            try:
+                data = json.load(f)
+            except:
+                data = {}
     else:
         data = {}
 
-    if username not in data:
-        data[username] = []
+    data.setdefault(username, {})
+    data[username].setdefault(str(tahun), {})
+    data[username][str(tahun)].setdefault(subject, {})
+    
+    # Simpan/update score untuk chapter
+    data[username][str(tahun)][subject][chapter] = {"score": score, "total": total}
 
-    data[username].append({
-        "tahun": tahun,
-        "subject": subject,
-        "chapter": chapter,
-        "score": score,
-        "total": total
-    })
-
-    with open(progress_file, "w") as f:
-        json.dump(data, f, indent=4)
+    with open(progress_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 # ============================
 # Streamlit UI
@@ -66,38 +65,58 @@ if not df.empty:
 
     # Filter soalan ikut subjek + chapter
     df_filtered = df[(df["subject"] == subject) & (df["chapter"] == chapter)]
+    
+    # Shuffle soalan
+    df_filtered = df_filtered.sample(frac=1).reset_index(drop=True)
 
-    if st.button("Mula Kuiz 🎯"):
-        if username == "":
-            st.warning("Sila masukkan nama anak dahulu!")
-        else:
-            score = 0
-            total = len(df_filtered)
-            
+    if username != "":
+        st.markdown("### Soalan")
+        
+        # ============================
+        # Form untuk jawapan quiz
+        # ============================
+        with st.form("quiz_form"):
             for i, row in df_filtered.iterrows():
                 st.subheader(f"Soalan {i+1}: {row['question']}")
                 options = [row['option_a'], row['option_b'], row['option_c'], row['option_d']]
                 random.shuffle(options)
-                answer = st.radio("Jawapan anda:", options, key=f"q{i}")
-                
-                if answer == row['answer']:
+                st.radio("Jawapan anda:", options, key=f"q{i}")
+            
+            submitted = st.form_submit_button("Hantar Jawapan ✅")
+        
+        if submitted:
+            score = 0
+            total = len(df_filtered)
+            for i, row in df_filtered.iterrows():
+                user_answer = st.session_state.get(f"q{i}")
+                if user_answer == row['answer']:
                     score += 1
+            st.success(f"Markah: {score}/{total} ({(score/total)*100:.1f}%)")
+            save_progress(username, tahun, subject, chapter, score, total)
+    else:
+        st.warning("Sila masukkan nama anak dahulu!")
 
-            if st.button("Hantar Jawapan ✅"):
-                st.success(f"Markah: {score} / {total}")
-                save_progress(username, tahun, subject, chapter, score, total)
-
+# ============================
 # Dashboard untuk ibu bapa
+# ============================
 st.markdown("---")
 st.header("📊 Dashboard Ibu Bapa")
 
 if os.path.exists("progress.json"):
-    with open("progress.json", "r") as f:
-        progress_data = json.load(f)
+    with open("progress.json", "r", encoding="utf-8") as f:
+        try:
+            progress_data = json.load(f)
+        except:
+            progress_data = {}
 
     for user, records in progress_data.items():
         st.subheader(f"👦 {user}")
-        for r in records:
-            st.write(f"Tahun {r['tahun']} | {r['subject']} - {r['chapter']} → {r['score']}/{r['total']}")
+        for year, subjects in records.items():
+            for subj, chapters in subjects.items():
+                for chap, score_data in chapters.items():
+                    score = score_data["score"]
+                    total = score_data["total"]
+                    percentage = (score / total) * 100
+                    st.write(f"Tahun {year} | {subj} - {chap} → {score}/{total} ({percentage:.1f}%)")
 else:
     st.info("Belum ada progres direkodkan.")
