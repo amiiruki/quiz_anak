@@ -1,4 +1,4 @@
-subject,chapter,question,option\_a,option\_b,option\_c,option\_d,answer,difficulty
+subject,chapter,question,option\_a,option\_b,option\_c,option\_d,answer
 BM,Tatabahasa,Pilih peribahasa yang betul.,Bagai aur dengan tebing,Bagai gunung dengan laut,Bagai kaca dengan permata,Bagai api dengan bara,Bagai aur dengan tebing
 BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu
 BM,Pemahaman,Apakah maksud frasa "melepaskan batuk di tangga"?,Sakit dada,Membuat kerja sambil lewa,Batuk di tangga,Membuang masa,Membuat kerja sambil lewa
@@ -19,65 +19,66 @@ English,Grammar,Fill in the blank: They ___ going to school.,is,are,am,be,are
 English,Vocabulary,What is the synonym of "happy"?,Sad,Angry,Joyful,Tired,Joyful
 English,Vocabulary,What is the opposite of "success"?,Win,Victory,Defeat,Progress,Defeat
 English,Comprehension,The boy kicked the ball. What did he kick?,The wall,The ball,The toy,The bag,The ball
-BM,Tatabahasa,Pilih peribahasa yang betul.,Seperti katak di bawah tempurung,Bagai aur dengan tebing,Bagai kaca dengan permata,Bagai api dengan bara,Seperti katak di bawah tempurung,Easy
-BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu,Easy
-BM,Tatabahasa,Benar atau salah: "Bagai isi dengan kuku" bermaksud orang sangat rapat.,Betul,Salah,Betul,Salah,Betul,Easy
-BM,Tatabahasa,Pilih ayat yang gramatis.,Saya telah menulis surat itu.,Saya menulis surat itu sudah.,Saya surat itu menulis sudah.,Sudah saya menulis surat itu.,Saya telah menulis surat itu,Easy
-BM,Tatabahasa,Maksud frasa "bagai air di daun keladi"?,Sukar berubah,Mudah berubah,Memilih,Mudah lupa,Mudah berubah,Medium
-BM,Pemahaman,Pilih ayat yang betul.,Dia pergi ke sekolah dengan bas.,Dia pergi sekolah dengan bas.,Dia ke sekolah pergi dengan bas.,Sekolah dia pergi dengan bas.,Dia pergi ke sekolah dengan bas,Easy
-BM,Pemahaman,Apakah maksud "lapang dada"?,Mudah marah,Sabar,Marah,Mudah gembira,Sabar,Easy
-BM,Pemahaman,Ayat manakah menunjukkan perasaan gembira?,Saya sedih.,Saya menangis.,Saya bermain.,Saya gembira.,Saya gembira,Easy
-BM,Pemahaman,Apakah maksud perkataan "murah hati"?,Kedekut,Baik hati,Lemah,Marah,Baik hati,Medium
-BM,Pemahaman,Pilih ayat yang betul.,Mereka membaca buku bersama-sama.,Mereka bersama membaca buku.,Mereka buku membaca bersama-sama.,Bersama mereka membaca buku.,Mereka membaca buku bersama-sama,Easy
-BM,Kosa Kata,Maksud perkataan "cemerlang"?,Lemah,Baik,Sangat bagus,Biasa,Sangat bagus,Medium
-BM,Kosa Kata,Apakah maksud perkataan "tabah"?,Kuat mental,Lemah mental,Lemah fizikal,Kuat fizikal,Kuat mental,Medium
-BM,Kosa Kata,Apakah maksud perkataan "gigih"?,Malas,Bekerja keras,Lambat,Mudah putus asa,Bekerja keras,Medium
-BM,Kosa Kata,Apakah maksud perkataan "ramah"?,Jahat,Baik hati,Marah,Sedih,Baik hati,Easy
-BM,Kosa Kata,Apakah maksud perkataan "tekun"?,Bersantai,Bekerja fokus,Mudah putus asa,Lambat,Bekerja fokus,Medium
-Math,Nombor,Berapakah 72 × 11?,792,782,702,812,792,Medium
-Math,Nombor,Hasil bahagi 225 ÷ 15 ialah...,10,15,12,25,15,Easy
-Math,Nombor,Berapakah nombor ganjil terbesar kurang daripada 100?,99,97,95,98,99,Medium
-Math,Nombor,Hasil tambah 123 + 57?,180,170,190,200,180,Easy
-Math,Nombor,Hasil tolak 250 - 76?,174,184,164,194,174,Medium
-Math,Geometri,Berapakah jumlah sudut dalam segi enam?,360,720,540,180,720,Medium
-Math,Geometri,Bilangan sisi segi lapan?,6,7,8,9,8,Medium
-Math,Geometri,Berapakah panjang sisi segi empat sama jika perimeter 36cm?,9,10,8,12,9,Medium
-Math,Geometri,Berapakah sudut tirus?,30,45,60,90,60,Easy
-Math,Geometri,Berapakah jumlah sudut dalam segi lima?,360,540,720,180,540,Medium
-Math,Pecahan,3/4 + 2/4 = ?,1,2,3/4,5/4,1,Medium
-Math,Pecahan,2/3 - 1/6 = ?,1/2,1/3,1/6,2/3,1/2,Medium
-Math,Pecahan,Bahagikan 4/5 dengan 2 = ?,2/5,4/10,1/5,4/5,2/5,Medium
-Math,Pecahan,Bahagian 5/6 dengan 1/3 = ?,1,5/2,3/6,2/3,2/3,Medium
-Math,Pecahan,1/2 + 2/3 = ?,1 1/6,7/6,3/5,4/5,7/6,Medium
-Sains,Hidupan,Apakah fungsi daun pada tumbuhan?,Menyerap air,Menyerap cahaya matahari,Menyerap baja,Menyerap tanah,Menyerap cahaya matahari,Easy
-Sains,Hidupan,Tumbuhan membuat makanannya melalui proses...,Fotosintesis,Respirasi,Peluh,Pengoksidaan,Fotosintesis,Easy
-Sains,Hidupan,Apakah fungsi akar?,Menyerap air dan nutrien,Mengeluarkan gas,Membekukan air,Menjadi tempat simpan makanan,Menyerap air dan nutrien,Easy
-Sains,Hidupan,Apakah fungsi bunga?,Pembiakan,Menyerap air,Menyimpan makanan,Pembekuan,Pembiakan,Medium
-Sains,Hidupan,Apakah fungsi biji?,Pembiakan,Membekukan air,Menyerap cahaya,Penyimpanan,Pembiakan,Medium
-Sains,Alam Semesta,Planet manakah paling dekat dengan Matahari?,Bumi,Mars,Venus,Merkuri,Merkuri,Easy
-Sains,Alam Semesta,Bumi mengelilingi Matahari dalam tempoh...,24 jam,1 bulan,1 tahun,10 tahun,1 tahun,Medium
-Sains,Alam Semesta,Planet terbesar dalam sistem suria?,Bumi,Jupiter,Venus,Neptun,Jupiter,Medium
-Sains,Alam Semesta,Apa itu satelit semula jadi?,Benda buatan manusia,Bulan,Bintang,Batu,Bulan,Easy
-Sains,Alam Semesta,Apa itu komet?,Bintang bergerak,Pinggan planet,Bola api,Benda beku,Benda beku,Medium
-Sains,Benda,Apakah perubahan air menjadi wap?,Pembekuan,Pemeluwapan,Penyejatan,Peleburan,Penyejatan,Easy
-Sains,Benda,Apakah perubahan wap menjadi air?,Pembekuan,Kondensasi,Penyejatan,Peleburan,Kondensasi,Easy
-Sains,Benda,Apakah perubahan air menjadi ais?,Pembekuan,Penyejatan,Peleburan,Kondensasi,Pembekuan,Easy
-Sains,Benda,Apakah alat mengukur suhu?,Termometer,Thermostat,Barometer,Hygrometer,Termometer,Easy
-Sains,Benda,Apakah perubahan air beku menjadi air?,Penyejatan,Pembekuan,Peleburan,Kondensasi,Peleburan,Medium
-English,Grammar,Choose the correct past tense.,He go to school.,He goes to school.,He went to school.,He going to school.,He went to school,Easy
-English,Grammar,Fill in the blank: They \_\_\_ going to school.,is,are,am,be,are,Easy
-English,Grammar,She \_\_\_ a book yesterday.,reads,read,reading,has read,read,Medium
-English,Grammar,He \_\_\_ to the market last week.,go,goes,went,going,went,Medium
-English,Grammar,We \_\_\_ dinner an hour ago.,eat,eats,ate,eating,ate,Medium
-English,Vocabulary,Synonym of "happy"?,Sad,Angry,Joyful,Tired,Joyful,Easy
-English,Vocabulary,Opposite of "success"?,Win,Victory,Defeat,Progress,Defeat,Easy
-English,Vocabulary,Meaning of "enormous"?,Small,Big,Tiny,Medium,Big,Medium
-English,Vocabulary,Opposite of "dark"?,Light,Black,White,Gray,Light,Easy
-English,Vocabulary,Choose synonym for "quick".,Fast,Slow,Lazy,Sluggish,Fast,Medium
-English,Vocabulary,Choose antonym for "old".,New,Young,Ancient,Modern,New,Medium
-English,Comprehension,The boy kicked the ball. What did he kick?,The wall,The ball,The toy,The bag,The ball,Medium
-English,Comprehension,The cat is sleeping. Where is it?,On the mat,Under the bed,On the roof,In the tree,On the mat,Easy
-English,Comprehension,She is eating an apple. What is she eating?,Apple,Banana,Orange,Grapes,Apple,Easy
-English,Comprehension,They are playing football. What are they playing?,Basketball,Football,Tennis,Volleyball,Football,Medium
-English,Comprehension,He is reading a book. What is he doing?,Writing,Reading,Singing,Dancing,Reading,Medium
+BM,Tatabahasa,Pilih peribahasa yang betul.,Seperti katak di bawah tempurung,Bagai aur dengan tebing,Bagai kaca dengan permata,Bagai api dengan bara,Seperti katak di bawah tempurung
+BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu
+BM,Tatabahasa,Benar atau salah: "Bagai isi dengan kuku" bermaksud orang sangat rapat.,Betul,Salah,Betul,Salah,Betul
+BM,Tatabahasa,Pilih ayat yang gramatis.,Saya telah menulis surat itu.,Saya menulis surat itu sudah.,Saya surat itu menulis sudah.,Sudah saya menulis surat itu.,Saya telah menulis surat itu
+BM,Tatabahasa,Maksud frasa "bagai air di daun keladi"?,Sukar berubah,Mudah berubah,Memilih,Mudah lupa,Mudah berubah
+BM,Pemahaman,Pilih ayat yang betul.,Dia pergi ke sekolah dengan bas.,Dia pergi sekolah dengan bas.,Dia ke sekolah pergi dengan bas.,Sekolah dia pergi dengan bas.,Dia pergi ke sekolah dengan bas
+BM,Pemahaman,Apakah maksud "lapang dada"?,Mudah marah,Sabar,Marah,Mudah gembira,Sabar
+BM,Pemahaman,Ayat manakah menunjukkan perasaan gembira?,Saya sedih.,Saya menangis.,Saya bermain.,Saya gembira.,Saya gembira
+BM,Pemahaman,Apakah maksud perkataan "murah hati"?,Kedekut,Baik hati,Lemah,Marah,Baik hati
+BM,Pemahaman,Pilih ayat yang betul.,Mereka membaca buku bersama-sama.,Mereka bersama membaca buku.,Mereka buku membaca bersama-sama.,Bersama mereka membaca buku.,Mereka membaca buku bersama-sama
+BM,Kosa Kata,Maksud perkataan "cemerlang"?,Lemah,Baik,Sangat bagus,Biasa,Sangat bagus
+BM,Kosa Kata,Apakah maksud perkataan "tabah"?,Kuat mental,Lemah mental,Lemah fizikal,Kuat fizikal,Kuat mental
+BM,Kosa Kata,Apakah maksud perkataan "gigih"?,Malas,Bekerja keras,Lambat,Mudah putus asa,Bekerja keras
+BM,Kosa Kata,Apakah maksud perkataan "ramah"?,Jahat,Baik hati,Marah,Sedih,Baik hati
+BM,Kosa Kata,Apakah maksud perkataan "tekun"?,Bersantai,Bekerja fokus,Mudah putus asa,Lambat,Bekerja fokus
+Math,Nombor,Berapakah 72 × 11?,792,782,702,812,792
+Math,Nombor,Hasil bahagi 225 ÷ 15 ialah...,10,15,12,25,15
+Math,Nombor,Berapakah nombor ganjil terbesar kurang daripada 100?,99,97,95,98,99
+Math,Nombor,Hasil tambah 123 + 57?,180,170,190,200,180
+Math,Nombor,Hasil tolak 250 - 76?,174,184,164,194,174
+Math,Geometri,Berapakah jumlah sudut dalam segi enam?,360,720,540,180,720
+Math,Geometri,Bilangan sisi segi lapan?,6,7,8,9,8
+Math,Geometri,Berapakah panjang sisi segi empat sama jika perimeter 36cm?,9,10,8,12,9
+Math,Geometri,Berapakah sudut tirus?,30,45,60,90,60
+Math,Geometri,Berapakah jumlah sudut dalam segi lima?,360,540,720,180,540
+Math,Pecahan,3/4 + 2/4 = ?,1,2,3/4,5/4,1
+Math,Pecahan,2/3 - 1/6 = ?,1/2,1/3,1/6,2/3,1/2
+Math,Pecahan,Bahagikan 4/5 dengan 2 = ?,2/5,4/10,1/5,4/5,2/5
+Math,Pecahan,Bahagian 5/6 dengan 1/3 = ?,1,5/2,3/6,2/3,2/3
+Math,Pecahan,1/2 + 2/3 = ?,1 1/6,7/6,3/5,4/5,7/6
+Sains,Hidupan,Apakah fungsi daun pada tumbuhan?,Menyerap air,Menyerap cahaya matahari,Menyerap baja,Menyerap tanah,Menyerap cahaya matahari
+Sains,Hidupan,Tumbuhan membuat makanannya melalui proses...,Fotosintesis,Respirasi,Peluh,Pengoksidaan,Fotosintesis
+Sains,Hidupan,Apakah fungsi akar?,Menyerap air dan nutrien,Mengeluarkan gas,Membekukan air,Menjadi tempat simpan makanan,Menyerap air dan nutrien
+Sains,Hidupan,Apakah fungsi bunga?,Pembiakan,Menyerap air,Menyimpan makanan,Pembekuan,Pembiakan
+Sains,Hidupan,Apakah fungsi biji?,Pembiakan,Membekukan air,Menyerap cahaya,Penyimpanan,Pembiakan
+Sains,Alam Semesta,Planet manakah paling dekat dengan Matahari?,Bumi,Mars,Venus,Merkuri,Merkuri
+Sains,Alam Semesta,Bumi mengelilingi Matahari dalam tempoh...,24 jam,1 bulan,1 tahun,10 tahun,1 tahun
+Sains,Alam Semesta,Planet terbesar dalam sistem suria?,Bumi,Jupiter,Venus,Neptun,Jupiter
+Sains,Alam Semesta,Apa itu satelit semula jadi?,Benda buatan manusia,Bulan,Bintang,Batu,Bulan
+Sains,Alam Semesta,Apa itu komet?,Bintang bergerak,Pinggan planet,Bola api,Benda beku,Benda beku
+Sains,Benda,Apakah perubahan air menjadi wap?,Pembekuan,Pemeluwapan,Penyejatan,Peleburan,Penyejatan
+Sains,Benda,Apakah perubahan wap menjadi air?,Pembekuan,Kondensasi,Penyejatan,Peleburan,Kondensasi
+Sains,Benda,Apakah perubahan air menjadi ais?,Pembekuan,Penyejatan,Peleburan,Kondensasi,Pembekuan
+Sains,Benda,Apakah alat mengukur suhu?,Termometer,Thermostat,Barometer,Hygrometer,Termometer
+Sains,Benda,Apakah perubahan air beku menjadi air?,Penyejatan,Pembekuan,Peleburan,Kondensasi,Peleburan
+English,Grammar,Choose the correct past tense.,He go to school.,He goes to school.,He went to school.,He going to school.,He went to school
+English,Grammar,Fill in the blank: They \_\_\_ going to school.,is,are,am,be,are
+English,Grammar,She \_\_\_ a book yesterday.,reads,read,reading,has read,read
+English,Grammar,He \_\_\_ to the market last week.,go,goes,went,going,went
+English,Grammar,We \_\_\_ dinner an hour ago.,eat,eats,ate,eating,ate
+English,Vocabulary,Synonym of "happy"?,Sad,Angry,Joyful,Tired,Joyful
+English,Vocabulary,Opposite of "success"?,Win,Victory,Defeat,Progress,Defeat
+English,Vocabulary,Meaning of "enormous"?,Small,Big,Tiny,Medium,Big
+English,Vocabulary,Opposite of "dark"?,Light,Black,White,Gray,Light
+English,Vocabulary,Choose synonym for "quick".,Fast,Slow,Lazy,Sluggish,Fast
+English,Vocabulary,Choose antonym for "old".,New,Young,Ancient,Modern,New
+English,Comprehension,The boy kicked the ball. What did he kick?,The wall,The ball,The toy,The bag,The ball
+English,Comprehension,The cat is sleeping. Where is it?,On the mat,Under the bed,On the roof,In the tree,On the mat
+English,Comprehension,She is eating an apple. What is she eating?,Apple,Banana,Orange,Grapes,Apple
+English,Comprehension,They are playing football. What are they playing?,Basketball,Football,Tennis,Volleyball,Football
+English,Comprehension,He is reading a book. What is he doing?,Writing,Reading,Singing,Dancing,Reading
+
 
