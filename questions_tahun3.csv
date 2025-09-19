@@ -1,21 +1,83 @@
-id,subject,chapter,question,option_a,option_b,option_c,option_d,answer
-1,BM,Tatabahasa,Apakah sinonim bagi "besar"?,kecil,agung,sempit,ringkas,agung
-2,BM,Tatabahasa,Apakah lawan kata bagi "gelap"?,terang,suram,malam,pekat,terang
-3,BM,Pemahaman,Pilih ayat yang betul.,Saya pergi pasar.,Saya pergi ke pasar.,Saya ke pergi pasar.,Pasar saya pergi.,Saya pergi ke pasar.
-4,BM,Pemahaman,Siapakah watak utama dalam cerita rakyat "Sang Kancil dan Buaya"?,Harimau,Gajah,Sang Kancil,Singa,Sang Kancil
-5,BM,Kosa Kata,Apakah maksud "ceria"?,sedih,gembira,marah,letih,gembira
-6,Math,Nombor,Berapakah 12 + 8?,15,18,20,22,20
-7,Math,Nombor,Berapakah 45 – 17?,28,27,29,30,28
-8,Math,Pecahan,Apakah pecahan bagi separuh?,1/3,1/4,1/2,3/4,1/2
-9,Math,Pecahan,3/6 sama dengan...,1/2,1/3,1/4,2/3,1/2
-10,Math,Geometri,Berapakah bilangan sisi bagi segi empat sama?,3,4,5,6,4
-11,Sains,Hidupan,Apakah organ yang mengepam darah?,Jantung,Paru-paru,Otak,Perut,Jantung
-12,Sains,Hidupan,Apakah organ pernafasan manusia?,Jantung,Paru-paru,Perut,Hati,Paru-paru
-13,Sains,Alam Semesta,Matahari ialah sebuah...,Planet,Bintang,Satelit,Kometa,Bintang
-14,Sains,Benda,Air berubah menjadi ais melalui proses...,Penyejatan,Pembekuan,Pemeluwapan,Peleburan,Pembekuan
-15,Sains,Benda,Apa yang berlaku apabila lilin dibakar?,Perubahan kekal,Perubahan fizikal,Perubahan kimia,Tiada perubahan,Perubahan kimia
-16,English,Grammar,Choose the correct sentence.,She go to school.,She goes to school.,She going to school.,She gone to school.,She goes to school.
-17,English,Grammar,Fill in the blank: He ___ playing football.,is,are,am,be,is
-18,English,Vocabulary,What is the opposite of "hot"?,Warm,Cold,Hotter,Freeze,Cold
-19,English,Vocabulary,What is the plural of "child"?,Childs,Children,Childes,Childer,Children
-20,English,Comprehension,Ali is running fast. What is he doing?,Walking,Sleeping,Eating,Running,Running
+subject,chapter,question,option\_a,option\_b,option\_c,option\_d,answer,difficulty
+BM,Tatabahasa,Apakah sinonim bagi "besar"?,kecil,agung,sempit,ringkas,agung
+BM,Tatabahasa,Apakah lawan kata bagi "gelap"?,terang,suram,malam,pekat,terang
+BM,Pemahaman,Pilih ayat yang betul.,Saya pergi pasar.,Saya pergi ke pasar.,Saya ke pergi pasar.,Pasar saya pergi.,Saya pergi ke pasar.
+BM,Pemahaman,Siapakah watak utama dalam cerita rakyat "Sang Kancil dan Buaya"?,Harimau,Gajah,Sang Kancil,Singa,Sang Kancil
+BM,Kosa Kata,Apakah maksud "ceria"?,sedih,gembira,marah,letih,gembira
+Math,Nombor,Berapakah 12 + 8?,15,18,20,22,20
+Math,Nombor,Berapakah 45 – 17?,28,27,29,30,28
+Math,Pecahan,Apakah pecahan bagi separuh?,1/3,1/4,1/2,3/4,1/2
+Math,Pecahan,3/6 sama dengan...,1/2,1/3,1/4,2/3,1/2
+Math,Geometri,Berapakah bilangan sisi bagi segi empat sama?,3,4,5,6,4
+Sains,Hidupan,Apakah organ yang mengepam darah?,Jantung,Paru-paru,Otak,Perut,Jantung
+Sains,Hidupan,Apakah organ pernafasan manusia?,Jantung,Paru-paru,Perut,Hati,Paru-paru
+Sains,Alam Semesta,Matahari ialah sebuah...,Planet,Bintang,Satelit,Kometa,Bintang
+Sains,Benda,Air berubah menjadi ais melalui proses...,Penyejatan,Pembekuan,Pemeluwapan,Peleburan,Pembekuan
+Sains,Benda,Apa yang berlaku apabila lilin dibakar?,Perubahan kekal,Perubahan fizikal,Perubahan kimia,Tiada perubahan,Perubahan kimia
+English,Grammar,Choose the correct sentence.,She go to school.,She goes to school.,She going to school.,She gone to school.,She goes to school.
+English,Grammar,Fill in the blank: He ___ playing football.,is,are,am,be,is
+English,Vocabulary,What is the opposite of "hot"?,Warm,Cold,Hotter,Freeze,Cold
+English,Vocabulary,What is the plural of "child"?,Childs,Children,Childes,Childer,Children
+English,Comprehension,Ali is running fast. What is he doing?,Walking,Sleeping,Eating,Running,Running
+BM,Tatabahasa,Pilih peribahasa yang betul.,Bagai aur dengan tebing,Bagai gunung dengan laut,Bagai kaca dengan permata,Bagai api dengan bara,Bagai aur dengan tebing,Easy
+BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu,Easy
+BM,Tatabahasa,Benar atau salah: "Bagai kacang lupakan kulit" bermaksud orang mudah lupa jasa orang lain.,Betul,Salah,Betul,Salah,Salah,Easy
+BM,Tatabahasa,Pilih ayat yang gramatis.,Saya telah membaca buku itu.,Saya sudah baca buku itu.,Saya baca buku itu sudah.,Sudah saya baca buku itu.,Saya telah membaca buku itu,Easy
+BM,Tatabahasa,Maksud frasa "melepaskan batuk di tangga"?,Sakit dada,Membuang masa,Membuat kerja sambil lewa,Batuk di tangga,Membuat kerja sambil lewa,Medium
+BM,Pemahaman,Pilih ayat yang betul.,Saya makan nasi.,Saya makan nasi itu.,Saya makan itu nasi.,Saya itu makan nasi.,Saya makan nasi,Easy
+BM,Pemahaman,Apakah maksud "berlapang dada"?,Mudah marah,Sabar,Marah,Mudah gembira,Sabar,Easy
+BM,Pemahaman,Ayat manakah menunjukkan perasaan sedih?,Saya gembira.,Saya menangis.,Saya bermain.,Saya makan.,Saya menangis,Easy
+BM,Pemahaman,Apakah maksud perkataan "murung"?,Gembira,Sedih,Marah,Lapar,Sedih,Medium
+BM,Pemahaman,Pilih ayat yang betul.,Dia pergi ke sekolah.,Dia pergi sekolah.,Dia ke sekolah pergi.,Sekolah dia pergi.,Dia pergi ke sekolah,Easy
+BM,Kosa Kata,Maksud perkataan "sejahtera"?,Sihat,Susah,Sakit,Miskin,Sihat,Easy
+BM,Kosa Kata,Apakah maksud perkataan "ramah"?,Jahat,Baik hati,Marah,Sedih,Baik hati,Easy
+BM,Kosa Kata,Apakah maksud perkataan "cemerlang"?,Lemah,Baik,Sangat bagus,Biasa,Sangat bagus,Medium
+BM,Kosa Kata,Apakah maksud perkataan "gigih"?,Malas,Bekerja keras,Lambat,Mudah putus asa,Bekerja keras,Medium
+BM,Kosa Kata,Apakah maksud perkataan "tabah"?,Kuat mental,Lemah mental,Lemah fizikal,Kuat fizikal,Kuat mental,Medium
+Math,Nombor,Berapakah 35 × 12?,360,420,440,480,420,Medium
+Math,Nombor,Hasil bahagi 144 ÷ 12 ialah...,10,11,12,13,12,Easy
+Math,Nombor,Berapakah nombor genap terkecil?,0,1,2,3,2,Easy
+Math,Nombor,Hasil tambah 56 + 34?,80,90,100,110,90,Easy
+Math,Nombor,Hasil tolak 75 - 28?,47,57,37,67,47,Medium
+Math,Geometri,Berapakah jumlah sudut dalam segi tiga?,90,120,180,360,180,Easy
+Math,Geometri,Bilangan sisi segi lapan?,6,7,8,9,8,Medium
+Math,Geometri,Berapakah panjang sisi segi empat sama jika perimeter 20cm?,4,5,6,7,5,Medium
+Math,Geometri,Berapakah sudut siku-siku?,45,60,90,120,90,Easy
+Math,Geometri,Berapakah jumlah sudut dalam segi lima?,360,540,720,180,540,Medium
+Math,Pecahan,5/10 sama dengan...,1/5,1/2,2/5,5/2,1/2,Medium
+Math,Pecahan,1/4 + 1/2 = ?,1/2,3/4,2/3,1,3/4,Medium
+Math,Pecahan,3/5 - 1/5 = ?,2/5,1/5,3/5,4/5,2/5,Easy
+Math,Pecahan,Bahagikan 6/8 dengan 2 = ?,1/4,3/4,3/8,6/16,3/8,Medium
+Math,Pecahan,Bahagian 2/3 dengan 1/3 = ?,1,2,3,4,2,Medium
+Sains,Hidupan,Apakah fungsi daun pada tumbuhan?,Menyerap air,Menyerap cahaya matahari,Menyerap baja,Menyerap tanah,Menyerap cahaya matahari,Easy
+Sains,Hidupan,Tumbuhan membuat makanannya melalui proses...,Fotosintesis,Respirasi,Peluh,Pengoksidaan,Fotosintesis,Easy
+Sains,Hidupan,Apakah fungsi akar?,Menyerap air dan nutrien,Mengeluarkan gas,Membekukan air,Menjadi tempat simpan makanan,Menyerap air dan nutrien,Easy
+Sains,Hidupan,Apakah fungsi bunga?,Pembiakan,Menyerap air,Menyimpan makanan,Pembekuan,Pembiakan,Medium
+Sains,Hidupan,Apakah fungsi biji?,Pembiakan,Membekukan air,Menyerap cahaya,Penyimpanan,Pembiakan,Medium
+Sains,Alam Semesta,Planet manakah paling dekat dengan Matahari?,Bumi,Mars,Venus,Merkuri,Merkuri,Easy
+Sains,Alam Semesta,Bumi mengelilingi Matahari dalam tempoh...,24 jam,1 bulan,1 tahun,10 tahun,1 tahun,Medium
+Sains,Alam Semesta,Planet terbesar dalam sistem suria?,Bumi,Jupiter,Venus,Neptun,Jupiter,Medium
+Sains,Alam Semesta,Apa itu satelit semula jadi?,Benda buatan manusia,Bulan,Bintang,Batu,Bulan,Easy
+Sains,Alam Semesta,Apa itu komet?,Bintang bergerak,Pinggan planet,Bola api,Benda beku,Benda beku,Medium
+Sains,Benda,Apakah perubahan air menjadi wap?,Pembekuan,Pemeluwapan,Penyejatan,Peleburan,Penyejatan,Easy
+Sains,Benda,Apakah perubahan wap menjadi air?,Pembekuan,Kondensasi,Penyejatan,Peleburan,Kondensasi,Easy
+Sains,Benda,Apakah perubahan air menjadi ais?,Pembekuan,Penyejatan,Peleburan,Kondensasi,Pembekuan,Easy
+Sains,Benda,Apakah alat mengukur suhu?,Termometer,Thermostat,Barometer,Hygrometer,Termometer,Easy
+Sains,Benda,Apakah perubahan air beku menjadi air?,Penyejatan,Pembekuan,Peleburan,Kondensasi,Peleburan,Medium
+English,Grammar,Choose the correct past tense.,She eat lunch.,She eats lunch.,She eaten lunch.,She ate lunch.,She ate lunch,Easy
+English,Grammar,Fill in the blank: They \_\_\_ going to school.,is,are,am,be,are,Easy
+English,Grammar,He \_\_\_ a book yesterday.,reads,read,reading,has read,read,Medium
+English,Grammar,She \_\_\_ to the market last week.,go,goes,went,going,went,Medium
+English,Grammar,We \_\_\_ dinner an hour ago.,eat,eats,ate,eating,ate,Medium
+English,Vocabulary,Synonym of "happy"?,Sad,Angry,Joyful,Tired,Joyful,Easy
+English,Vocabulary,Opposite of "success"?,Win,Victory,Defeat,Progress,Defeat,Easy
+English,Vocabulary,What is the meaning of "enormous"?,Small,Big,Tiny,Medium,Big,Medium
+English,Vocabulary,What is the opposite of "dark"?,Light,Black,White,Gray,Light,Easy
+English,Vocabulary,Choose synonym for "quick".,Fast,Slow,Lazy,Sluggish,Fast,Medium
+English,Vocabulary,Choose antonym for "old".,New,Young,Ancient,Modern,New,Medium
+English,Comprehension,The boy kicked the ball. What did he kick?,The wall,The ball,The toy,The bag,The ball,Medium
+English,Comprehension,The cat is sleeping. Where is it?,On the mat,Under the bed,On the roof,In the tree,On the mat,Easy
+English,Comprehension,She is eating an apple. What is she eating?,Apple,Banana,Orange,Grapes,Apple,Easy
+English,Comprehension,They are playing football. What are they playing?,Basketball,Football,Tennis,Volleyball,Football,Medium
+English,Comprehension,He is reading a book. What is he doing?,Writing,Reading,Singing,Dancing,Reading,Medium
+
