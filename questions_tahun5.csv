@@ -1,4 +1,4 @@
-subject,chapter,question,option\_a,option\_b,option\_c,option\_d,answer
+subject,chapter,question,option_a,option_b,option_c,option_d,answer
 BM,Tatabahasa,Pilih peribahasa yang betul.,Bagai aur dengan tebing,Bagai gunung dengan laut,Bagai kaca dengan permata,Bagai api dengan bara,Bagai aur dengan tebing
 BM,Tatabahasa,Apakah maksud simpulan bahasa "berat hati"?,Malas,Murung,Susah hendak melakukan sesuatu,Berat badan,Susah hendak melakukan sesuatu
 BM,Pemahaman,Apakah maksud frasa "melepaskan batuk di tangga"?,Sakit dada,Membuat kerja sambil lewa,Batuk di tangga,Membuang masa,Membuat kerja sambil lewa
@@ -80,5 +80,6 @@ English,Comprehension,The cat is sleeping. Where is it?,On the mat,Under the bed
 English,Comprehension,She is eating an apple. What is she eating?,Apple,Banana,Orange,Grapes,Apple
 English,Comprehension,They are playing football. What are they playing?,Basketball,Football,Tennis,Volleyball,Football
 English,Comprehension,He is reading a book. What is he doing?,Writing,Reading,Singing,Dancing,Reading
+
 
 
